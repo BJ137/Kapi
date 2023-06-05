@@ -1,0 +1,50 @@
+#game-canvas
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1076.1px;
+    height: 496.125px;
+    border: 25px solid black;
+    border-radius: 80px;
+  }
+
+  #level-buttons {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+  
+ 
+  #level-buttons img {
+    margin: 0 -50px;
+    width: 350px;
+    transition: transform 0.5s;
+  }
+  
+
+.img-pop:hover {
+    transform: scale(1.2);
+  }
+
+
+.img-pop2:hover {
+    transform: translate(-50%, -50%) scale(1.2);
+  }
+
+.home {
+  width: 60px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 26%;
+  left: 82%;
+  z-index: 1;
+  transition: transform 0.5s;
+}
